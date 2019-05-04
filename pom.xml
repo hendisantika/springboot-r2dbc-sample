@@ -88,13 +88,13 @@
                         <plugin>all-open</plugin>
                         <plugin>spring</plugin>
                         <plugin>no-arg</plugin>
-                        <plugin>jpa</plugin>
+                        <!--                        <plugin>jpa</plugin>-->
                     </compilerPlugins>
-                    <pluginOptions>
-                        <option>no-arg:annotation=com.hendisantika.reactive.springbootr2dbcsample</option>
+                    <!--                    <pluginOptions>-->
+                    <!--                        <option>no-arg:annotation=com.hendisantika.reactive.springbootr2dbcsample</option>-->
                         <!-- Call instance initializers in the synthetic constructor -->
                         <!-- <option>no-arg:invokeInitializers=true</option> -->
-                    </pluginOptions>
+                    <!--                    </pluginOptions>-->
                 </configuration>
                 <dependencies>
                     <dependency>
